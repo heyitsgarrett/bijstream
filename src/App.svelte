@@ -1,11 +1,11 @@
 <script>
   import Tailwindcss from "./Tailwindcss.svelte";
 
-  let currentGoal = 1000;
-  let totalRaised = 600;
+  let currentGoal = 6969;
+  let totalRaised = 420;
 
-  let initialGoal = 500;
-  let showOriginalGoal = !false;
+  let initialGoal = 100;
+  let showOriginalGoal = false;
 
   $: chartHeight = getChartHeight();
   $: totalRaisedHeight = (totalRaised / currentGoal) * 100;
